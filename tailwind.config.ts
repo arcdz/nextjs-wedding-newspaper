@@ -6,7 +6,8 @@ export default {
     extend: {
       fontFamily: {
         chomsky: "'Chomsky', serif",
-        newsreader: "'Newsreader', serif"
+        newsreader: "'Newsreader', serif",
+        oldstandard: "'Old Standard TT', serif"
       }
     }
   }, plugins: []
