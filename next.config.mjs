@@ -18,5 +18,10 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  images: {
+    domains: ['velveto.ro'],
+  },
+
+
 };
 export default config;
