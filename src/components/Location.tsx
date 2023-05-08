@@ -12,7 +12,8 @@ const Location = () => <>
       <span className="italic"> Ceremoniile civilă </span>
       și
       <span className="italic"> religioasă </span>
-      vor avea loc pe pontonul restaurantului Velveto Garden din București.</p>
+      vor avea loc pe pontonul restaurantului
+      <span className="font-oldstandard text-xl font-bold"> Velveto Garden </span> din București.</p>
     <p className="p-2 font-oldstandard text-lg">
       Petrecerea va continua în interiorul restaurantului imediat după incheierea ceremoniilor.
     </p>

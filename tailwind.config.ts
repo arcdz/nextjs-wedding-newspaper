@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        chomsky: "'Chomsky', serif",
+        'chomsky': ['Chomsky', 'serif'],
         newsreader: "'Newsreader', serif",
         oldstandard: "'Old Standard TT', serif"
       }

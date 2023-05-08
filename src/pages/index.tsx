@@ -1,7 +1,4 @@
 import { type NextPage } from "next";
-import { GoLinkExternal } from "react-icons/go";
-import { GrMapLocation } from "react-icons/gr";
-import { GiRotaryPhone } from "react-icons/gi";
 import Head from "next/head";
 import Title from "~/components/Title";
 import Welcome from "~/components/Welcome";
