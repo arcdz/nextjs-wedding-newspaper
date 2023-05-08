@@ -16,8 +16,9 @@ const Confirmation = () => {
           <label className="font-oldstandard text-lg pt-1 pb-4">
             Numele dumneavoastră:
           </label>
-          <input className="font-oldstandard font-bold text-center
-                                border-0 px-2 py-1.5 w-full md:w-3/5 mx-auto
+          <input className="font-oldstandard font-bold text-center rounded-none
+                                border-2 border-gray-200 md:border-0
+                                px-2 py-1.5 w-full md:w-3/5 mx-auto
                                 text-gray-900  ring-1 ring-inset ring-gray-300
                                 placeholder:text-gray-400 placeholder:text-center
                                 focus:bg-gray-200 focus:outline-none "
@@ -31,9 +32,10 @@ const Confirmation = () => {
           <label className="font-oldstandard text-lg pt-1 pb-4">
             Numărul de persoane:
           </label>
-          <input className="font-oldstandard font-bold text-center
-                                border-0 px-2 py-1.5 w-full md:w-3/5 mx-auto
-                                text-gray-900  ring-1 ring-inset ring-gray-300
+          <input className="font-oldstandard font-bold text-center rounded-none
+                                border-2 border-gray-200 md:border-0
+                                px-2 py-1.5 w-full md:w-3/5 mx-auto
+                                text-gray-900 ring-1 ring-inset ring-gray-300
                                 placeholder:text-gray-400 placeholder:text-center
                                 focus:bg-gray-200 focus:outline-none "
                  type="text"
@@ -50,8 +52,9 @@ const Confirmation = () => {
             id="altele"
             name="altele"
             rows={2}
-            className="font-oldstandard font-bold text-center
-                            border-0 px-2 py-1.5 w-full md:w-4/5 mx-auto
+            className="font-oldstandard font-bold text-center rounded-none
+                            border-2 border-gray-200 md:border-0
+                            px-2 py-1.5 w-full md:w-4/5 mx-auto
                             text-gray-900  ring-1 ring-inset ring-gray-300
                             placeholder:text-gray-400 placeholder:text-center
                             focus:bg-gray-200 focus:outline-none resize-y"
