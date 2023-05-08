@@ -5,13 +5,8 @@
 
 @font-face {
     font-family: 'Chomsky';
-    src: url("./fonts/chomsky/Chomsky.woff");
-}
-
-@font-face {
-    font-family: 'Chomsky';
     src: url('/fonts/chomsky/Chomsky.woff2') format('woff2'),
-    url('/fonts/chomsky/Chomsky.woff2') format('woff');
+    url('/fonts/chomsky/Chomsky.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

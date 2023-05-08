@@ -5,14 +5,14 @@ import { GoLinkExternal } from "react-icons/go";
 import Image from "next/image";
 
 const Location = () => <>
-  <div className="py-6 px-12 text-center flex-col justify-center">
+  <div className="container py-6 md:px-12 text-center flex-col justify-center">
     <h1 className="font-newsreader text-3xl font-bold ">Locație</h1>
     <h2 className="font-oldstandard text-xl p-2">~ Nuntă pe ponton ~</h2>
     <p className="font-oldstandard text-lg">
       <span className="italic"> Ceremoniile civilă </span>
       și
       <span className="italic"> religioasă </span>
-      vor avea loc pe pontonul restaurantului
+      vor avea loc pe <br /> pontonul restaurantului
       <span className="font-oldstandard text-xl font-bold"> Velveto Garden </span> din București.</p>
     <p className="p-2 font-oldstandard text-lg">
       Petrecerea va continua în interiorul restaurantului imediat după incheierea ceremoniilor.
@@ -32,30 +32,15 @@ const Location = () => <>
       </div>
     </Link>
     <div className="text-lg flex justify-center pt-4">
-      <div className="relative w-full h-[300px]">
-        <Image
-          alt='Message Image'
-          src='https://velveto.ro/wp-content/uploads/2022/08/Cununie-exterior.jpeg'
-          className=' grayscale'
-          layout="fill"
-          objectFit='fill'
-          objectPosition='center'
-        />
+      <Image
+        alt="Ponton - Velvetor Garden"
+        src="https://velveto.ro/wp-content/uploads/2022/08/Cununie-exterior.jpeg"
+        width="0"
+        height="0"
+        sizes="100"
+        className="w-3/4 h-auto object-cover grayscale"
+      />
       </div>
-
-      {/*<div className="max-w-prose overflow-hidden flex justify-stretch bg-gray-600">*/}
-        {/*<Image*/}
-        {/*  alt="Ponton - Velvetor Garden"*/}
-        {/*  src="https://velveto.ro/wp-content/uploads/2022/08/Cununie-exterior.jpeg"*/}
-        {/*  width="0"*/}
-        {/*  height="0"*/}
-        {/*  sizes="100"*/}
-        {/*  className="w-3/4 h-auto object-cover grayscale"*/}
-        {/*/>*/}
-
-
-      </div>
-    {/*</div>*/}
   </div>
 </>;
 export default Location;

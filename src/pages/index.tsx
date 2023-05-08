@@ -19,27 +19,33 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          rel="preload"
-          href="/src/styles/fonts/chomsky/Chomsky.otf"
-          as="font"
-          type="font/otf"
-          crossOrigin="anonymous"
-        />
       </Head>
 
+      {/* Small screen */}
+      <div className="min-h-screen flex flex-col justify-around md:hidden">
+        <Title />
+
+        <Invitation />
+
+        <Location />
+        <Timeline />
+
+        <Confirmation />
+        <Welcome />
+      </div>
+
       {/* Big screen */}
-      <div className="min-h-screen flex flex-col justify-around">
+      <div className="hidden md:min-h-screen md:flex md:flex-col md:justify-around">
         <Title />
         <div className="grow flex">
-          <div className="flex flex-col justify-around">
+          <div className="basis-1/3 flex flex-col justify-start">
             <Invitation />
             <Timeline />
           </div>
-          <div className="flex flex-col justify-start">
+          <div className="basis-1/3 flex flex-col justify-center">
             <Location />
           </div>
-          <div className="flex flex-col justify-start">
+          <div className="basis-1/3 flex flex-col justify-start">
             <Confirmation />
           </div>
         </div>
