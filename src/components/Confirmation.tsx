@@ -2,7 +2,7 @@ import React from "react";
 import { GiRotaryPhone } from "react-icons/gi";
 
 const Confirmation = () => {
-  const altedetalii = "\n~ Ex:  Alergii, meniu vegetarian, meniu copii, etc. ~\n";
+  const altedetalii = "\n~ Ex: Cazare, Alergii, meniu vegetarian, meniu copii, etc. ~\n";
   return <>
 
     <div className="container py-6 md:px-12 text-center font-newsreader">

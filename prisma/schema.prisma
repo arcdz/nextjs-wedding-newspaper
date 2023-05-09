@@ -2,16 +2,21 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 datasource db {
-  provider = "mysql"
-  url      = env("DATABASE_URL")
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
   relationMode = "prisma"
 }
 
 generator client {
   provider = "prisma-client-js"
 }
-model Example {
-    id        String   @id @default(cuid())
-    createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
+
+model Confirmations {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  name      String   @db.VarChar(500)
+  number    String   @db.VarChar(500)
+  specs     String   @db.VarChar(2000)
+  yes       Boolean
+  validated Boolean  @default(false)
 }
