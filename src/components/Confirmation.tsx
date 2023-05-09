@@ -6,8 +6,9 @@ const Confirmation = () => {
   return <>
 
     <div className="container py-6 md:px-12 text-center font-newsreader">
-      <h1 className="pb-2  text-3xl font-bold ">Confirmări</h1>
-      <p className="p-4  text-lg">Ne puteți confirma prezența folosind formularul de mai jos: </p>
+      <h1 className=" text-3xl font-bold ">Confirmări</h1>
+      <h2 className=" text-xl font-oldstandard italic">~</h2>
+      <p className="p-4 pt-2 text-lg">Ne puteți confirma prezența folosind formularul de mai jos: </p>
 
       {/*  Form confirmari */}
       <form className="flex flex-col gap-y-4 border-y-2 border-dotted p-4">
@@ -64,11 +65,11 @@ const Confirmation = () => {
         <div className="mt-2 flex items-center justify-center gap-x-6">
           <button
             type="submit"
-            className="leading-6 text-gray-900 border border-gray-600 px-3 py-2 hover:bg-gray-200 hover:border-gray-200">
+            className="leading-6 text-gray-50 border bg-gray-800 px-3 py-2 hover:bg-gray-600 hover:border-gray-600">
             Confirmă participarea
           </button>
           <button type="button"
-                  className="leading-6 text-gray-900 border border-gray-600 px-3 py-2 hover:bg-gray-200 hover:border-gray-200">
+            className="leading-6 text-gray-50 border bg-gray-800 px-3 py-2 hover:bg-gray-600 hover:border-gray-600">
             Nu pot participa
           </button>
 
