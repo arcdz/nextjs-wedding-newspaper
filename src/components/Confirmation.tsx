@@ -2,21 +2,21 @@ import React from "react";
 import { GiRotaryPhone } from "react-icons/gi";
 
 const Confirmation = () => {
-  const altedetalii = "\n~ Ex: Alergii, copii, etc. ~\n";
+  const altedetalii = "\n~ Ex:  Alergii, meniu vegetarian, meniu copii, etc. ~\n";
   return <>
 
-    <div className="container py-6 md:px-12 text-center">
-      <h1 className="pb-2 font-newsreader text-3xl font-bold ">Confirmări</h1>
-      <p className="p-4 font-oldstandard text-lg">Ne puteți confirma prezența folosind formularul de mai jos: </p>
+    <div className="container py-6 md:px-12 text-center font-newsreader">
+      <h1 className="pb-2  text-3xl font-bold ">Confirmări</h1>
+      <p className="p-4  text-lg">Ne puteți confirma prezența folosind formularul de mai jos: </p>
 
       {/*  Form confirmari */}
       <form className="flex flex-col gap-y-4 border-y-2 border-dotted p-4">
 
         <div className="flex flex-col">
-          <label className="font-oldstandard text-lg pt-1 pb-4">
+          <label className=" text-lg pt-1 pb-4">
             Numele dumneavoastră:
           </label>
-          <input className="font-oldstandard font-bold text-center rounded-none
+          <input className="  text-center rounded-none
                                 border-2 border-gray-200 md:border-0
                                 px-2 py-1.5 w-full md:w-3/5 mx-auto
                                 text-gray-900  ring-1 ring-inset ring-gray-300
@@ -29,10 +29,10 @@ const Confirmation = () => {
         </div>
 
         <div className="flex flex-col">
-          <label className="font-oldstandard text-lg pt-1 pb-4">
+          <label className=" text-lg pt-1 pb-4">
             Numărul de persoane:
           </label>
-          <input className="font-oldstandard font-bold text-center rounded-none
+          <input className="  text-center rounded-none
                                 border-2 border-gray-200 md:border-0
                                 px-2 py-1.5 w-full md:w-3/5 mx-auto
                                 text-gray-900 ring-1 ring-inset ring-gray-300
@@ -52,7 +52,7 @@ const Confirmation = () => {
             id="altele"
             name="altele"
             rows={2}
-            className="font-oldstandard font-bold text-center rounded-none
+            className="  text-center rounded-none
                             border-2 border-gray-200 md:border-0
                             px-2 py-1.5 w-full md:w-4/5 mx-auto
                             text-gray-900  ring-1 ring-inset ring-gray-300
@@ -75,30 +75,17 @@ const Confirmation = () => {
         </div>
       </form>
 
-      <p className="px-1 pb-1 pt-5 font-oldstandard text-lg">sau la numerele de telefon: </p>
-      {/*<div className="font-oldstandard text-lg flex items-center justify-center">*/}
-      {/*  <GiRotaryPhone />*/}
-      {/*  <div className="mt-1 ml-3">*/}
-      {/*    0730.920.449 - Andrei*/}
-      {/*  </div>*/}
-      {/*  <div className="mt-1 mx-3">*/}
-      {/*    /*/}
-      {/*  </div>*/}
-      {/*  <GiRotaryPhone />*/}
-      {/*  <div className="mt-1 ml-3">*/}
-      {/*    0730.920.449 - Ioana*/}
-      {/*  </div>*/}
-      {/*</div>*/}
-      <div className="font-oldstandard text-lg flex items-center justify-center">
+      <p className="px-1 pb-1 pt-5  text-lg">sau la numerele de telefon: </p>
+      <div className=" text-lg flex items-center justify-center">
         <GiRotaryPhone />
         <div className="mt-1 ml-3">
           0730.920.449 - Andrei
         </div>
       </div>
-      <div className="font-oldstandard text-lg flex items-center justify-center">
+      <div className=" text-lg flex items-center justify-center">
         <GiRotaryPhone />
         <div className="mt-1 ml-3">
-          0730.920.449 - Ioana
+          0727.343.641 - Ioana
         </div>
       </div>
 

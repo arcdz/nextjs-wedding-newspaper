@@ -5,19 +5,19 @@ import { GoLinkExternal } from "react-icons/go";
 import Image from "next/image";
 
 const Location = () => <>
-  <div className="container py-6 md:px-12 text-center flex-col justify-center">
-    <h1 className="font-newsreader text-3xl font-bold ">Locație</h1>
+  <div className="container py-6 md:px-12 text-center flex-col justify-center font-newsreader">
+    <h1 className=" text-3xl font-bold ">Locație</h1>
     <h2 className="font-oldstandard text-xl p-2">~ Nuntă pe ponton ~</h2>
-    <p className="font-oldstandard text-lg">
-      <span className="italic"> Ceremoniile civilă </span>
+    <p className=" text-lg">
+      <span className="font-oldstandard text-xl italic font-semibold"> Ceremoniile civilă </span>
       și
-      <span className="italic"> religioasă </span>
+      <span className="font-oldstandard text-xl italic font-semibold"> religioasă </span>
       vor avea loc pe <br /> pontonul restaurantului
-      <span className="font-oldstandard text-xl font-bold"> Velveto Garden </span> din București.</p>
-    <p className="p-2 font-oldstandard text-lg">
+      <span className="font-oldstandard text-xl italic font-semibold"> Velveto Garden </span> din București.</p>
+    <p className="p-2  text-lg">
       Petrecerea va continua în interiorul restaurantului imediat după incheierea ceremoniilor.
     </p>
-    <div className="p-2 font-oldstandard text-lg flex items-center justify-center">
+    <div className="p-2  text-lg flex items-center justify-center">
       <GrMapLocation />
       <div className="mt-2 ml-3">
         București, Str. Oltețului Nr. 30
