@@ -1,4 +1,4 @@
-/** @type {import("tailwindcss").Config} */
+import { type Config } from "tailwindcss";
 
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
@@ -11,5 +11,6 @@ export default {
         oldstandard: "'Old Standard TT', serif"
       }
     }
-  }, plugins: []
-};
+  },
+  plugins: [],
+} satisfies Config;
