@@ -7,16 +7,17 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = env("DATABASE_URL")
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
 }
 
-model Example {
+model Confirmation {
   id        String   @id @default(cuid())
   createdAt DateTime @default(now())
-  name      String
-  number    String
-  specs     String
+  name      String   @db.VarChar(500)
+  number    String   @db.VarChar(500)
+  specs     String   @db.VarChar(5000)
   yes       Boolean
   validated Boolean  @default(false)
 }

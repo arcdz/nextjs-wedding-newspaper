@@ -1,7 +1,6 @@
 import {type NextPage} from "next";
 import Head from "next/head";
 
-import {api} from "y/utils/api";
 import Title from "y/components/Title";
 import Invitation from "y/components/Inivitation";
 import Location from "y/components/Location";
@@ -10,10 +9,9 @@ import Confirmation from "y/components/Confirmation";
 import Welcome from "y/components/Welcome";
 
 const Home: NextPage = () => {
-    const hello = api.example.hello.useQuery({text: "from tRPC"});
+    // const hello = api.example.hello.useQuery({text: "from tRPC"});
 
-    return (
-        <>
+    return (<>
             <Head>
                 <title>The Wedding Times</title>
                 <meta name="description" content="8 iulie 2023 - Wedding - Ioana & Andrei"/>
@@ -49,8 +47,6 @@ const Home: NextPage = () => {
                 </div>
                 <Welcome/>
             </div>
-        </>
-    );
+        </>);
 };
-
 export default Home;
