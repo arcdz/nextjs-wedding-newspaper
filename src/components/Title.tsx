@@ -9,7 +9,7 @@ const Title = () => <>
     </div>
     {/*<h1 className="center font-newsreader text-2xl">BUCUREȘTI - Sâmbată, 8 IULIE 2023</h1>*/}
     <h1 className="p-2 border-double  border-y-4 border-black center font-oldstandard text-xl font-bold">
-      București - Sâmbată, 8 Iulie 2023
+      București - Sâmbătă, 8 Iulie 2023
     </h1>
   </header>
 </>;
