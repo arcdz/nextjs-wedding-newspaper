@@ -1,28 +1,28 @@
-# Create T3 App
+# Wedding Newspaper 
+[![Git Repo](https://badgen.net/badge/andreirotariu/nextjs-wedding-newspaper/blue?icon=github)](https://github.com/andreirotariu/nextjs-wedding-newspaper)
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+## Dev:
 
-## What's next? How do I make an app with this?
+[![T3 Stack](https://badgen.net/badge/T3Stack/create-t3-app/purple)](https://create.t3.gg)
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+[![Next.js](https://img.shields.io/badge/Next.js_(Pages)-13-blue?logo=nextdotjs&labelColor=black&color=gray)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18-blue?logo=react&labelColor=black)](https://react.dev/)
+[![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Prisma](https://img.shields.io/badge/Prisma-3982CE?logo=Prisma&logoColor=white)](https://www.prisma.io/)
+[![tRPC](https://img.shields.io/badge/tRPC-2596BE.svg?logo=tRPC&logoColor=white)](https://trpc.io/)
+[![React Query](https://img.shields.io/badge/-React%20Query-FF4154?logo=react%20query&logoColor=white)](https://tanstack.com/query/v3/)
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Deployment:
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- Code:
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?logo=vercel&logoColor=white)
+- Database:
+![PlanetScale](https://img.shields.io/badge/planetscale-%23000000.svg?logo=planetscale&logoColor=white) / ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?logo=mysql&logoColor=white&color=orange)
 
-## Learn More
+## Fonts:
+- Chomsky (New York Times masthead, reimagined as a full font) - [GitHub/Chomsky](https://github.com/ctrlcctrlv/chomsky) | [Dafont/Chomsky](https://www.dafont.com/chomsky.font)
+- Newsreader - [GoogleFonts/Newsreader](https://fonts.google.com/specimen/Old+Standard+TT)
+- Oldstandard - [GoogleFonts/Oldstandard](https://fonts.google.com/specimen/Old+Standard+TT)
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## .env 
